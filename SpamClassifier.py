@@ -1,5 +1,5 @@
 import pandas as pd
-para = pd.read_csv("F:\\MTech\\SelfStudies\\NLP\\smsspamcollection\\SMSSpamCollection", sep='\t',names=['target','label'])
+para = pd.read_csv("SMSSpamCollection", sep='\t',names=['target','label'])
 import nltk
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
